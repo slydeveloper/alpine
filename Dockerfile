@@ -3,13 +3,13 @@ LABEL maintainer="sylwek.sokolowski@gmail.com"
 
 ARG BUILD_DATE
 ARG BUILD_NAME
-ARG VCS_REF
 ARG BUILD_VERSION
+ARG VCS_REF
 
 LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.build-date=$BUILD_DATE
 LABEL org.label-schema.name=$BUILD_NAME
-LABEL org.label-schema.description="Alpine Linux Docker Image"
+LABEL org.label-schema.description="Alpine Linux by Slydeveloper"
 LABEL org.label-schema.url="https://github.com/slydeveloper/alpine"
 LABEL org.label-schema.vcs-url="https://github.com/slydeveloper/alpine"
 LABEL org.label-schema.vcs-ref=$VCS_REF
